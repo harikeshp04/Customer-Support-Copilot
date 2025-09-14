@@ -42,8 +42,8 @@ customer-support-copilot/
 ├── requirements.txt # Python dependencies
 └── README.md # This file
 
-1. Clone and enter the project
-```bash
+
+1.Clone and enter the project
 git clone <repo-url>
 cd customer-support-copilot
 
