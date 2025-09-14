@@ -1,0 +1,11 @@
+id,channel,subject,text
+1,Email,How to connect Snowflake connector,"Hi, can you guide me how to set up the Snowflake connector for ingestion?"
+2,Chat,SSO login failing,"We can't login with our SSO. It throws an error 'Invalid token'. Please help, this is blocking access."
+3,WhatsApp,Data lineage missing,Why is lineage not showing for my tables created last week?
+4,Email,Product outage,Our workspace appears down and we get 500 errors on dashboards.
+5,Chat,API returns 401,"When I call the API with token X, I get HTTP 401 Unauthorized."
+6,Email,Glossary sync question,How does glossary sync work across regions?
+7,Chat,Sensitive data leak,I think confidential customer data was exposed in a dataset preview.
+8,WhatsApp,Best practices for Tags,What are recommended best practices for tagging columns and assets?
+9,Email,Connector bug,The BigQuery connector fails on schema change.
+10,Chat,How to call SDK,Example to create an asset using Atlan SDK in Python?

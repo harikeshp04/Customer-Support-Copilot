@@ -1,0 +1,12 @@
+streamlit>=1.18
+pandas
+numpy
+sentence-transformers   
+transformers
+torch
+openai
+beautifulsoup4
+requests
+tqdm
+vaderSentiment
+scikit-learn
