@@ -43,22 +43,22 @@ customer-support-copilot/
 └── README.md # This file
 
 
-1.Clone and enter the project
+1.Clone and enter the project : 
     git clone <repo-url>
     cd customer-support-copilot
 
-2. Create and activate virtual environment
+2. Create and activate virtual environment : 
     Windows (PowerShell):
     python -m venv venv
     venv\Scripts\Activate.ps1
 
-3. Install requirements
+3. Install requirements : 
     pip install -r requirements.txt
 
-4. (Optional) Set OpenAI API Key
+4. (Optional) Set OpenAI API Key : 
     $env:OPENAI_API_KEY="your-key-here"
 
-5.Run the App
+5.Run the App :
     streamlit run app.py
 
 📘 Usage
