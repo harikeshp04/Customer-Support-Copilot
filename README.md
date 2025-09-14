@@ -45,6 +45,31 @@ customer-support-copilot/
 
 ---
 
+📘 Usage
+
+Bulk Ticket Classification: 
+Upload a sample_tickets.csv (or use default).
+View classifications in a table. Download classified tickets.
+Interactive AI Agent: Submit a new ticket.
+See internal analysis (tags, sentiment, priority).
+View final AI-generated response with sources.
+
+🔍 Knowledge Base
+
+Add .txt files into kb/ folder or
+Use fetch_and_save(url) in rag.py to scrape docs.
+Build/rebuild index from the Streamlit sidebar.
+
+🧩 Tech Stack
+
+Frontend: Streamlit
+Embeddings: SentenceTransformers (all-MiniLM-L6-v2)
+Retrieval: FAISS / cosine similarity
+Classification: Hugging Face zero-shot (facebook/bart-large-mnli) + VADER
+Generation:
+OpenAI GPT-3.5 (if API key provided)
+Hugging Face flan-t5-base (local fallback)
+
 ## 🚀 Setup Instructions
 
 1. Clone and enter the project
@@ -65,6 +90,7 @@ $env:OPENAI_API_KEY="your-key-here"
 
 5. Run the app
 streamlit run app.py
+---
 
 
 
